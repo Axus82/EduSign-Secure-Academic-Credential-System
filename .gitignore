@@ -1,0 +1,8 @@
+# Generated secrets - never commit real keys/keystores to version control
+ca_data/
+keystore/*.p12
+keystore/*.pem
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/

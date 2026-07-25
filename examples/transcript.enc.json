@@ -1,0 +1,6 @@
+{
+  "wrapped_key": "qGRjv3pUT17EYgqgbNS45gS+9ntsDPikOcq7HgVLhHix1wHjb9+hCjajgGm98T31TUqwiMU9KMUMoneVlk0v4QOMLK7OF2bLagf7uH3RMQ5K1Vq6uPwgFgQ/NUVYoyRAft62uB1OtK2fxmKY35SYrzdniSnZZsfBTZzYU/uojNSx3IcM6SmKiZamoBune6Gq/R6XjgZVT5N3kzoPVD4odJA1s0P9ussSUTUJDLIRaeIMlCQ/uIuKz4I8NhcNadAoWKTXXMmnAbAkCEiDEPdoDBxvtErfsqeo2rW+LrYDgqDwQOh3rDsnA5TuxUuddffh/CMW2KE0fby+9I2XC8e/nA==",
+  "nonce": "lRCmWGlXXR8MGegJ",
+  "ciphertext": "2AZTw9gfWuQc4B1mERRE3Qnnx9OFjyvjBtqM93pIvH2dfNu/F3Tmw26qWVYXOYr1NVTWIaNT08nSRQ==",
+  "algorithm": "AES-256-GCM + RSA-OAEP-SHA256"
+}
