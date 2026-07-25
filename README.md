@@ -1,4 +1,4 @@
-# EduSign — Secure Academic Credential System
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0aff16b9-5fcc-4621-83fc-e6892c4ff40c" /># EduSign — Secure Academic Credential System
 
 EduSign is an open-source PKI-based tool that lets universities issue
 digitally-signed academic credentials (degrees, transcripts,
@@ -20,31 +20,8 @@ a cryptographic guarantee."
 ## Architecture
 
 ```
-                    ┌─────────────────────┐
-                    │   EduSign Root CA    │  (self-signed, offline)
-                    └──────────┬───────────┘
-                               │ issues certs
-                 ┌─────────────┴─────────────┐
-                 ▼                            ▼
-        ┌─────────────────┐         ┌─────────────────┐
-        │ Registrar A cert │         │ Registrar B cert │
-        │ (password-locked  │        │ (password-locked  │
-        │  PKCS#12 keystore)│        │  PKCS#12 keystore)│
-        └────────┬─────────┘         └────────┬─────────┘
-                 │ signs                      │ signs
-                 ▼                            ▼
-        ┌────────────────────────────────────────────┐
-        │        Signed Credential (JSON)              │
-        │  { payload, signature, signer_cert }          │
-        └───────────────────┬────────────────────────┘
-                             ▼
-                  ┌────────────────────┐
-                  │   Verifier          │
-                  │ 1. Signature valid? │
-                  │ 2. Chains to CA?    │
-                  │ 3. Not expired?     │
-                  │ 4. Not revoked?     │
-                  └────────────────────┘
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9eebc8ff-2a9f-4824-aea9-179026e3d640" />
+
 ```
 
 ## Cryptographic techniques used
